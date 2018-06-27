@@ -1,0 +1,71 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Andile">
+	<meta name="keywords" content="Andile, Fragrance">
+	<link rel="stylesheet" href="css/style.css"> 
+	<meta name="Authour" content="Velile Vamba">
+	<script type="text/javascript">
+		function myMap() {
+    var mapCanvas = document.getElementById("map");
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.2),
+        zoom: 10
+    };
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+	</script>
+	
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAe8EWk8RaaVqmjoWIVkqWT_ovvUlhF-xg&callback=initMap"
+  type="text/javascript"></script>
+	<title>Home Page</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1>Fragrance</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="contacts_div">
+		<div class="container">
+			<div id="block1">
+				<h1>Contact Us</h1>
+				<form action="" method="" id="frmCntx">
+				<label>Name </label><input type="text" name="name"/>
+				<label>Email </label><input type="email" name="email"/>
+				<label>cell </label><input type="text" name="name"/>
+				<textarea placeholder="Type INn Your Query" >
+				
+				</textarea>
+				<input type="submit" name="submit" value="Send" id="submit"/>
+				</form>
+				<div id="map"></div>
+			</div>
+			<div id="block2" style="color:green">
+				<h2>Contact Details</h2>
+				<h4>Address</h4>
+				695 HerbyMdingi Street<br/>
+				Orlando Eats</br>
+				1804</br>
+				<h4 >Email</h4>
+				fragranceofnature00@gmail.com
+			</div>
+		</div>
+	</section>
+	<footer>
+		<p> Designed By Vetjur V4, copyright &copy 2017 </p>
+	</footer>
+	
+</body>
+</html>

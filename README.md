@@ -11,7 +11,7 @@ Clone the repository
     
 Switch to the repo folder
 
-    cd Bootstrap-profile-page
+    cd CSS-HTML-website-template
     
 Open index file on your favourite browser and enjoy
 

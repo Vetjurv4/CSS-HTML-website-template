@@ -1,9 +1,9 @@
-# CSS-HTML-website-template
-This is a website for advertising cleaning services. It is built using HTML5 and CSS3.
+# CSS & HTML website-template
+This is a website for advertising cleaning services. I built this back in the days using Vanilla HTML5 and CSS3 while I was still learning website development.
 
-# Getting started
+This website is published at https://vetjurv4.github.io/CSS-HTML-website-template/
 
-## Installation
+## To run the project into your computer
 
 Clone the repository
 
